@@ -145,7 +145,7 @@ st.subheader('📋 Data Summary')
 st.write(f"**Total Records:** {len(df):,}")
 st.write(f"**Date Range:** {df['timestamp'].min().strftime('%Y-%m-%d')} to {df['timestamp'].max().strftime('%Y-%m-%d')}")
 st.write(f"**Appliances:** {', '.join(df['appliance_name'].unique())}")
-st.write(f"**Users:** {', '.join(df['user_id'].unique())}")
+st.write(f"**Users:** {', '.join(str(u) for u in df['user_id'].unique())}")
 
 # Add footer
 st.markdown("---")
