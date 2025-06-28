@@ -89,4 +89,4 @@ Synthetic data and pipeline design: Pranav
 Weather data via Meteostat (https://meteostat.net/)
 Forecasting models: Prophet, ARIMA
 
-If you have questions, ideas, or want to contribute, just open an issue or pull request. Have fun exploring and forecasting! 
+If you have questions, ideas, or want to contribute, just open an issue or pull request. Have fun exploring and forecasting! # smart-home-forecasting
